@@ -2,8 +2,9 @@
 int main(){
     char name,hobby;
     int age;
-    scanf("%s %s",&name &hobby);
+    scanf("%s ",&name);
     scanf("%d", &age);
+    scanf("%s", &hobby);
     printf("Name: %s", &name);
     printf("Age: %d",&age);
     printf("Hobby: %s",&hobby);
