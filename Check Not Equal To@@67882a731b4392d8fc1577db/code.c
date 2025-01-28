@@ -8,4 +8,5 @@ int main(){
     else if{
         printf("True");
     }
+    return 0;
 }
