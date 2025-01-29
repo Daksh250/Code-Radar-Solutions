@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
@@ -7,7 +8,7 @@ int main() {
     int e=(int)pow(a,2)+(int)pow(c,2);
     int f=(int)pow(b,2);
     int g=(int)pow(b,2)+(int)pow(c,2);
-    int m=a**2;
+    int m=(int)pow(a,2);
     if (x==y){
         printf("Valid");
     }
