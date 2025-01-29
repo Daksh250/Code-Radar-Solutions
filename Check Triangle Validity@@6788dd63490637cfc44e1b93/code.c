@@ -2,11 +2,11 @@
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    int x=(a**2)+(b**2);
-    int y=c**2;
-    int e=(a**2)+(c**2);
-    int f=b**2;
-    int g=(b**2)+(c**2);
+    int x=(int)pow(a,2)+(int)pow(b,2);
+    int y=(int)pow(c,2);
+    int e=(int)pow(a,2)+(int)pow(c,2);
+    int f=(int)pow(b,2);
+    int g=(int)pow(b,2)+(int)pow(c,2);
     int m=a**2;
     if (x==y){
         printf("Valid");
