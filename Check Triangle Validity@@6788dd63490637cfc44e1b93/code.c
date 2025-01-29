@@ -3,12 +3,12 @@
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    int x=(int)pow(a,2)+(int)pow(b,2);
-    int y=(int)pow(c,2);
-    int e=(int)pow(a,2)+(int)pow(c,2);
-    int f=(int)pow(b,2);
-    int g=(int)pow(b,2)+(int)pow(c,2);
-    int m=(int)pow(a,2);
+    int x=(a*a)+(b*b);
+    int y=(c*c);
+    int e=(a*a)+(c*c);
+    int f=(b*b);
+    int g=(b*b)+(c*c);
+    int m=(a*a);
     if (x==y){
         printf("Valid");
     }
