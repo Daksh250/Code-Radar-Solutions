@@ -1,21 +1,22 @@
-#include <stdio.h>
-#include <math.h>
-int main() {
+#include<stdio.h>
+int main(){
     int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
-    int x=(a*a)+(b*b);
-    int y=(c*c);
-    int e=(a*a)+(c*c);
-    int f=(b*b);
-    int g=(b*b)+(c*c);
-    int m=(a*a);
-    if (x==y){
+    scanf("%d,%d,%d",&a,&b,&c);
+    int d=a*a+b*b;
+    int e=c*c;
+    int f=a*a+c*c;
+    int g=b*b;
+    int h=b*b+c*c;
+    int i=a*a;
+    if(d==e){
         printf("Valid");
+
     }
-    else if(e==f){
+    else if(f==g){
         printf("Valid");
+
     }
-    else if(g==m){
+    else if(h==i){
         printf("Valid");
     }
     else{
