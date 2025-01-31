@@ -11,4 +11,5 @@ int main(){
     else{
         print("Zero");
     }
+    return 0;
 }
