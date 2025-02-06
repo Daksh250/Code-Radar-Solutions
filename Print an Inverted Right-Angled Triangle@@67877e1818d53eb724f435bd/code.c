@@ -8,6 +8,6 @@ int main(){
         for(j=a;j<a-i;j--){
             printf("* ");
         }
-        printf(" ")
+        printf(" ");
     }
 }
