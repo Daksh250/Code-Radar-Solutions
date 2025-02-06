@@ -30,7 +30,7 @@ int main(){
         printf("31");
     }
     else if(num==10){
-        printf("30")
+        printf("30");
     }
     else if(num==11){
         printf("31");
