@@ -24,19 +24,19 @@ int main(){
         printf("31");
     }
     else if(num==8){
-        printf("30");
+        printf("31");
     }
     else if(num==9){
-        printf("31");
+        printf("30");
     }
     else if(num==10){
-        printf("30");
-    }
-    else if(num==11){
         printf("31");
     }
-    else if(num==12){
+    else if(num==11){
         printf("30");
+    }
+    else if(num==12){
+        printf("31");
     }
     else{
         printf("Invalid month");
