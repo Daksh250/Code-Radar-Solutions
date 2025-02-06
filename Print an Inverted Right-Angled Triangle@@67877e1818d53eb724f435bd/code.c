@@ -5,9 +5,9 @@ int main(){
     int i;
     int j;
     for(i=0;i<a;i++){
-        for(j=a;j<a-i;j--){
+        for(j=0;j<a-i;j++){
             printf("* ");
         }
-        printf(" ");
+        printf("\n");
     }
 }
