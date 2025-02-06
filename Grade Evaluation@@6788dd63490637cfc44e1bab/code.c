@@ -15,6 +15,9 @@ int main(){
         printf("Below Average");
     }
     else if(grade=='F'){
+        printf("Fail");
+    }
+    else {
         printf("Invalid grade");
     }
 }
