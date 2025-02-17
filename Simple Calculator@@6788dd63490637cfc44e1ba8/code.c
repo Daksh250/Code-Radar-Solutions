@@ -1,4 +1,29 @@
-#include <stdio.h>
+// #include <stdio.h>
+// int main(){
+//     int num1,num2;
+//     char c;
+//     scanf("%d %d %c",&num1,&num2,&c);
+//     switch(c){
+//         case '+':
+//             printf("%d",num1+num2);
+//             break;
+//         case '-':
+//             printf("%d",num1-num2);
+//             break;
+//         case '*':
+//             printf("%d",num1*num2);
+//             break;
+//         case '/':
+//             if(num2==0){
+//                 printf("error");
+//             }
+//             else{
+//                 printf("%d",num1/num2);
+//                 break;
+//             }
+//     }
+// }
+#include<stdio.h>
 int main(){
     int num1,num2;
     char c;
@@ -11,15 +36,21 @@ int main(){
             printf("%d",num1-num2);
             break;
         case '*':
-            printf("%d",num1*num2);
+            printf("%d", &num1*num2);
             break;
-        case '/':
+        case '%':
             if(num2==0){
-                printf("error");
+                printf("Error");
+                
             }
             else{
                 printf("%d",num1/num2);
-                break;
             }
+
+
+
+ 
+
+    }
     }
 }
