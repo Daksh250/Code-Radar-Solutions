@@ -4,6 +4,9 @@ int isPrime(int x){
         if(x==2){
             count = 0;
             break;
+        }else if(x==1){
+            count =1;
+            break;
         }
         if(x%i==0){
             count++;
