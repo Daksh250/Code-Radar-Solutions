@@ -1,9 +1,6 @@
-// Your code here..
 #include <stdio.h>
-
-// Function to check if a number is prime (without stdbool)
 int isPrime(int num) {
-    // Prime numbers are greater than 1
+   
     if (num <= 1) {
         return 0; // 0 means not prime
     }
