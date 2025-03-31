@@ -1,4 +1,4 @@
-int bubblesort(int arr[],int n){
+int bubbleSort(int arr[],int n){
 
 
     int i,j;
