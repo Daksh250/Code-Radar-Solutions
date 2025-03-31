@@ -2,12 +2,10 @@
 int isPrime(int num) {
    
     if (num <= 1) {
-        return 0; // 0 means not prime
+        return 0; 
     }
-
-    // 2 is the only even prime number
     if (num == 2) {
-        return 1; // 1 means prime
+        return 1;
     }
 
     // If the number is even and greater than 2, it's not prime
