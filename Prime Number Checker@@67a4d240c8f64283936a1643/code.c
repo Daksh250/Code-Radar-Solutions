@@ -1,6 +1,5 @@
 int isPrime(int x){
     int count=0;
-    for(int i=2;i<x;i++){
         if(x==2){
             count = 0;
             break;
@@ -8,6 +7,8 @@ int isPrime(int x){
             count=1;
             break;
         }
+    for(int i=2;i<x;i++){
+        count=0;
         if(x%i==0){
             count++;
             break;
