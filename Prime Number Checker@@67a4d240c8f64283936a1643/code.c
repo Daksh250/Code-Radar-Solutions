@@ -4,8 +4,8 @@ int isPrime(int x){
         if(x==2){
             count = 0;
             break;
-        }else if(x==1){
-            count =1;
+        }else if(x==1||x==0){
+            count=1;
             break;
         }
         if(x%i==0){
@@ -13,7 +13,7 @@ int isPrime(int x){
             break;
         }
     }
-    if(count){
+if(count){
         return 0;
     }else{
         return 1;
