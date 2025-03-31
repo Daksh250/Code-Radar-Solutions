@@ -1,8 +1,9 @@
-int isPrime(int x){
-    if(x%x==0||x%1==0){
-        return 1;
-    }
-    else{
+int isPrime(int n){
+    if(n <=1)
+    return o;
+    for(int i =2 ; i* i <=n;i++){
+        if (n % i == 0)
         return 0;
     }
+    return 1;
 }
