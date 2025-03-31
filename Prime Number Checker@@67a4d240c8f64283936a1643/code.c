@@ -1,5 +1,5 @@
 int isPrime(int x){
-    int count;
+    int count=0;
     for(int i=2;i<x;i++){
         if(x==2){
             count = 0;
